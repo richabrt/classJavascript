@@ -80,14 +80,14 @@
 // console.log(vv)
 
 
-//reduce
+// //reduce
 //   console.log('---stationery---')   
 //  stationery = ['pen','pencil','eraser']
 // let st = stationery.reduce(function(acc,el,index,arr){
     
 //     return acc+el.length
 //  },0)
-//  console.log(st/stationery.length)   //
+//  console.log(st/stationery.length)   //5---adding altogether(15) divide by total length(3)
 
 
 // console.log('---computers---')   
@@ -99,6 +99,15 @@
 //  console.log(cm/computers.length)   //4.5  //work more on reduce
 
 
+
+//finding total and average value from the given array
+// let numbers = [200,300,400,500]
+// let no = numbers.reduce(function(acc,el){
+//     return acc+el
+// },0)
+
+// //console.log(no)                            //total value----1400
+// console.log(no/numbers.length)                //average value ---------350
 
 
 // // let transactions = [1000,2000,-4000,-3000,6000]

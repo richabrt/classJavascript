@@ -40,7 +40,7 @@
 // let string = 'Java is a programming language'
 // let alphas = ['m','n','o','p']
 // let count =0
-// for(let i=0;i<string.length;i++){
+// for(let i=0;i<string.length;i++){                           //error --how can we find the specific letters on both string and arrays
 //     if(alphas.includes(string[i])){
 //         count=count+1
 //     }
@@ -48,8 +48,18 @@
 
 // console.log(count)
 
+//finding a,e and rfrom the given array
+// let mount = ['Everest','Makalu','Mansalu','ganesh']
+// let mm = ['a','e','r']
+// let count = 0;
+// for(let i=0;i<mount.length;i++){
+//     if(mm.includes(mount[i])){
+//         count=count+1                                    //error
 
+//     }
+// }
 
+// console.log(count)
 
 //join
 // let greeting = ['Namaste','How','are','you']
@@ -58,7 +68,7 @@
 // // console.log(greeting.join(' '))//Namaste How are you
 
 
-console.log('---joinname----')
-let fullName = ['hello', 'richa','ruja','usha','ruja']
+// console.log('---joinname----')
+// let fullName = ['hello', 'richa','riju','usha','ruja']
 
-console.log(fullName.join(' '))
+// console.log(fullName.join(' '))

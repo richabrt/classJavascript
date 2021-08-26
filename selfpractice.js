@@ -1,3 +1,22 @@
+// let newsent = 'I am enjoying Javascript'
+// let newsent1 = newsent.split('').reverse().join('')
+// console.log(newsent1)                                            //tpircsavaJ gniyojne ma I
+// selfpractice.js
+
+// console.log('--revsent---')
+// let newSent = 'I love travelling'
+// let newSent1= newSent.split('').reverse().join('')
+// newSent2=newSent1.split(' ').reverse().join (' ')               //I evol gnillevart
+// console.log(newSent2)                                  //when you dont add space between split and join then the sentence doesnt get reversed--
+//                                                                   //answer will be--'I love travelling
+
+
+// console.log('-------------back to front---------------')
+// let hobbies = 'I love spending time with my kids'
+// let hobbies1 = hobbies.split('').join('')                //kids my with time spending love I
+// let hobbies2= hobbies1.split(' ').reverse().join(' ')      //no reverse on first command and add reverse on next line to get only sentence back to front
+// console.log(hobbies2)
+
 // //highest number from the Array
 // let numbers =[[20,44,33],[60,75,92]]
 // let nos =numbers.flat()
@@ -26,9 +45,7 @@
 
 //console.log(low)                           //no output displayed
 
-
-
-let name =[['Richa','Neha','Sara'],['Rakshya','Ruja','Riju']]
+// let name =[['Richa','Neha','Sara'],['Rakshya','Ruja','Riju']]
 //console.log(name)
 //console.log(name.length)
 //let bb = name.push('sreya')
@@ -53,6 +70,17 @@ let name =[['Richa','Neha','Sara'],['Rakshya','Ruja','Riju']]
 // )
 // console.log(na)
 
+
+// let fruits = ['apple','mango','cherry']
+// let cc = fruits.map(function(el,index,arr){
+// return `lets eat ${el}!`
+
+// })
+// console.log(cc)
+
+
+
+
 //
 
 //filter
@@ -63,6 +91,14 @@ let name =[['Richa','Neha','Sara'],['Rakshya','Ruja','Riju']]
 
 // })
 // console.log(cc)
+
+
+// let noodles =['waiwai','rumpum','maggi','rara']
+// let nn= noodles.filter(function(el,index,arr){
+//     return el.length = 4                                   //how to find a on the array?
+// }
+// )
+// console.log(nn)
 
 
 
@@ -93,28 +129,26 @@ let name =[['Richa','Neha','Sara'],['Rakshya','Ruja','Riju']]
 //printing words in the reverse order in a sentence
 // 'My name is Richa'
 
-// let str = 'My name is Richa'
-// // 'MynameisRicha'
-// //  console.log(str)
-//  let str1 = str.split(" ")
-//  let newstr = " "
-//  for(let i=str1.length-1;i>=0;i--){
-//  newstr=newstr+str1[i]
-//  }
+//let str = 'My name is Richa'
+// 'MynameisRicha'
+//  console.log(str)
+//  let str1 = str.split(" ").join(" ")
+// //  let newstr = "  "
+// //  for(let i=str1.length-1;i>=0;i--){
+// //  newstr=newstr+str1[i]
+// //  }
 
-//   console.log(newstr)
-//  console.log(str1)
+//   console.log(str1)
+//  //console.log(str1)
 
 
 //I am enjoying this class
 // let word1='I am enjoying this class'
-// let word2= word1.split(' ')
-// let newword=' '
-// for(let i = word2.length-1;i>=0;i--){
-//     newword+=word2[i]
-// }
+// let word2= word1.split(' ').join(' ')
+// let word3=word2.split(' ').reverse().join(' ')    //class this enjoying am i
 
-// console.log(newword)
+
+// console.log(word3)
 
 // console.log('---newword-----')
 // let word='I am enjoying this class'
@@ -147,26 +181,29 @@ let name =[['Richa','Neha','Sara'],['Rakshya','Ruja','Riju']]
 // console.log(revSentence1)
                                   
 
-//I am new to this programming
+// //I am new to this programming
 
 // let sentence1 = "I am new to this programming"               // gnimmargorp siht ot wen ma I
-// //console.log(sentence1)
+//  console.log(sent)
 
-// let sent = sentence1.split(' ').join(' ')
-// let newsent = " "
-// for(let i =sent.length-1;i>=0;i--){
-//     newsent += sent[i]                                
+//  let sent = sentence1.split(' ').join(' ')
+// // let newsent = " "
+// // for(let i =sent.length-1;i>=0;i--){
+// //     newsent += sent[i]                                
 // }
 // console.log(newsent)
 
 
-let sentence1 = "I am new to this programming"               // gnimmargorp siht ot wen ma I
+//let sentence1 = "I am new to this programming"               // gnimmargorp siht ot wen ma I
 //console.log(sentence1)
 
-let sent = sentence1.split(' ').reverse().join(' ')
-// let newsent = " "
-// for(let i =sent.length-1;i>=0;i--){
-//     newsent += sent[i]                                //newsent= newsent+ sent[i]
-// }
-// console.log(newsent)
-console.log(sent)
+// let sent = sentence1.split(' ').reverse().join(' ')
+// // let newsent = " "
+// // for(let i =sent.length-1;i>=0;i--){
+// //     newsent += sent[i]                                //newsent= newsent+ sent[i]
+// // }
+// // console.log(newsent)
+
+// console.log(sent)
+
+
